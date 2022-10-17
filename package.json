@@ -19,9 +19,9 @@
     "lint": "npx prettier --check ./src/**/* ./test/**/*",
     "lint:write": "npx prettier --check ./src/**/* ./test/**/* --write",
     "clean": "npx rimraf lib && npx rimraf coverage && npx rimraf .nyc_output",
-    "test": "npx mocha --opts .mocharc.json",
-    "test:watch": "npx mocha --opts .mocharc.json --watch",
-    "test:prod": "npm run lint && npx nyc mocha --opts .mocharc.json --reporter dot",
+    "test": "npx mocha --config .mocharc.json",
+    "test:watch": "npx mocha --config .mocharc.json --watch",
+    "test:prod": "npm run lint && npx nyc mocha --config .mocharc.json --reporter dot",
     "prebuild": "npm run clean",
     "build": "npx tsc",
     "build:watch": "npx tsc -w"
