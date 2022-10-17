@@ -1,0 +1,8 @@
+{
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "extension": [".ts", ".tsx"],
+  "require": ["ts-node/register"],
+  "reporter": ["lcov", "json", "text", "html"],
+  "sourceMap": true,
+  "instrument": true
+}
