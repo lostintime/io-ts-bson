@@ -34,8 +34,9 @@
   ],
   "dependencies": {},
   "peerDependencies": {
-    "bson": "^4.7.0",
-    "io-ts": "^2.2.19"
+    "bson": "^4.0.0",
+    "io-ts": "^2.0.0",
+    "io-ts-types": "^0.5.0"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.3.1",
@@ -43,7 +44,8 @@
     "@types/mocha": "^10.0.0",
     "bson": "^4.7.0",
     "chai": "^4.3.6",
-    "io-ts": "^2.2.19",
+    "io-ts": "^2.0.0",
+    "io-ts-types": "^0.5.0",
     "mocha": "^10.1.0",
     "nyc": "^15.1.0",
     "prettier": "^2.7.1",
