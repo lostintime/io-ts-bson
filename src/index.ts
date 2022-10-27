@@ -1,2 +1,2 @@
 export * from './date';
-export * from './ObjectIdFromBson';
+export * from './ObjectId';
