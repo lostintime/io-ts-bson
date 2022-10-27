@@ -8,4 +8,9 @@ describe('ObjectId', () => {
     const o = new bson.ObjectId();
     expect(ObjectId.decode(o)).deep.equals(t.success(o));
   });
+
+  it('encodes to ObjectId', () => {
+    const o = new bson.ObjectId();
+    expect(ObjectId.encode(o)).equals(o);
+  });
 });

@@ -7,4 +7,9 @@ describe('date', () => {
     const now = new Date();
     expect(date.decode(now)).deep.equals(t.success(now));
   });
+
+  it('encodes to Date', () => {
+    const now = new Date();
+    expect(date.encode(now)).equals(now);
+  });
 });
