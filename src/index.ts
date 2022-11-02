@@ -8,3 +8,4 @@ export * from './NumberFromLong';
 export * from './ObjectId';
 export * from './ObjectIdString';
 export * from './StringFromDouble';
+export * from './UUID';
