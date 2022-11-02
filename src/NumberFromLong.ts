@@ -11,10 +11,10 @@ export const NumberFromLong = new t.Type<number, bson.Long, unknown>(
       } else if (i instanceof bson.Long) {
         return t.success(i.toNumber());
       } else {
-        return t.failure(i, c, `Failed to decode NumberFromInt32: bson.Long | number expected, got ${typeof i}`);
+        return t.failure(i, c, `Failed to decode NumberFromLong: bson.Long | number expected, got ${typeof i}`);
       }
     } catch (e: unknown) {
-      return t.failure(i, c, `Failed to decode NumberFromInt32: ${e}`);
+      return t.failure(i, c, `Failed to decode NumberFromLong: ${e}`);
     }
   },
   (a) => bson.Long.fromNumber(a),
