@@ -1,5 +1,7 @@
 export * from './BigIntFromLong';
 export * from './Binary';
+export * from './BSONRegExp';
+export * from './BSONSymbol';
 export * from './date';
 export * from './Decimal128';
 export * from './NumberFromDouble';
