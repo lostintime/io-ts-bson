@@ -10,4 +10,5 @@ export * from './NumberFromLong';
 export * from './ObjectId';
 export * from './ObjectIdString';
 export * from './StringFromDouble';
+export * from './Timestamp';
 export * from './UUID';
