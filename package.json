@@ -4,7 +4,7 @@
   "private": false,
   "description": "io-ts codecs for BSON",
   "author": "lostintime.dev@gmail.com",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "homepage": "https://github.com/lostintime/io-ts-bson",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
