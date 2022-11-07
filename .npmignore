@@ -1,0 +1,12 @@
+.idea
+*.iml
+.gitignore
+.npmignore
+node_modules/
+src/
+.nyc_output/
+coverage/
+.github/
+tsconfig.json
+.npmrc
+.travis.yml
