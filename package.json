@@ -24,7 +24,8 @@
     "test:prod": "npm run lint && npx nyc mocha --config .mocharc.json --reporter dot",
     "prebuild": "npm run clean",
     "build": "npx tsc",
-    "build:watch": "npx tsc -w"
+    "build:watch": "npx tsc -w",
+    "prepublishOnly": "npm run build && npm run test:prod"
   },
   "keywords": [
     "typescript",
