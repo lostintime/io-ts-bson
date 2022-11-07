@@ -1,23 +1,22 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
-    "target": "es2015",
-    "module": "commonjs",
-    "strict": true,
-    "sourceMap": true,
-    "declaration": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmitOnError": true,
-    "declarationDir": "lib",
-    "outDir": "lib",
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "lib",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2015", "ESNext.BigInt"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
